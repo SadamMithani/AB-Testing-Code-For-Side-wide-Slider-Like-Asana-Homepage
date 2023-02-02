@@ -1,0 +1,326 @@
+/*asana slider*/
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ .small-business-section,
+ .slider-section,
+ .slider-section-container {
+    background-color: #F8F9FC !important;
+}
+
+ .slider-section {
+    padding-bottom: 84px;
+    padding-top: 76px;
+}
+
+ .slider-section .slider-section-container {
+    background-color: #FFFFFF;
+    max-width: 1660px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+ .slider-section-container .container-content .img-content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+ .slider-section-container .img-blocks img {
+    width: 100%;
+    border-radius: 8px;
+    image-rendering: -webkit-optimize-contrast;
+    /*padding: 10px;
+    */
+}
+
+ .slider-section .tab_mobile-mode,
+ .slider-section-container .img-blocks img.mobile-img {
+    display: none;
+}
+
+ .slider-section-container .container-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1660px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* slider css */
+ .img-content .slick-list {
+    max-width: 752px;
+    width: 100% !important;
+}
+
+ .img-content .slick-dots {
+    position: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    bottom: inherit;
+}
+
+ .img-content .slick-dots {
+    width: 32.204%;
+}
+
+ .img-content .slick-dots li,
+ .img-contenttabslider .feature-column.tab-link-container {
+    max-width: 475px;
+    width: 100%;
+    height: 56px;
+    background: #ffffff;
+    margin: 0px 0px 8px;
+    border-radius: 4px;
+}
+
+ .img-content .slick-dots li.slick-active {
+    height: auto;
+    margin: 0px 0 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+ .img-content .slick-dots li button {
+    max-width: 475px;
+    width: 100%;
+    height: 100%;
+    padding: 14px 20px;
+    margin: 0 auto;
+}
+
+ .img-content .slick-dots li.slick-active button {
+    padding: 16px;
+}
+
+
+ .img-content .slick-dots li.slick-active .presentation {
+    padding: 0px 20px 16px;
+    cursor: text;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+ .img-content .slick-dots li button .content-title {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6F8DAB;
+    /*margin-bottom: 8px;*/
+    text-align: initial;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+ .img-content .slick-dots li.slick-active button .content-title {
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+ .img-content .slick-dots li button .content-title:hover {
+    color: #212529;
+}
+
+ .img-content .slick-dots li.slick-active button .content-title:hover {
+    color: #212529;
+    cursor: text;
+}
+
+ .img-content .slick-dots li button .subtext {
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212529;
+    text-align: initial;
+    cursor: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    margin: 0;
+    letter-spacing: 0px;
+    display: none;
+}
+
+ .img-content .slick-dots li.slick-active:nth-child(2) {
+    font-size: 15px;
+}
+
+ .img-content .slick-dots li button:before {
+    display: none;
+    letter-spacing: 0px;
+}
+
+ .tab-links .tab-link-container.tabclose .content-title {
+    margin: 0px;
+    color: #555555;
+}
+
+ .img-content .slick-dots li.slick-active .subtext {
+    display: block;
+}
+
+ .img-content .slick-dots li .AccordionMediaCarousel__mobile-only-media {
+    display: none;
+}
+
+ .img-content .slick-dots li.slick-active .AccordionMediaCarousel__mobile-only-media {
+    display: block;
+}
+
+ ul.slick-dots .Startmyfreetrial-btn {
+    padding-left: 29px;
+    padding-top: 16px;
+}
+
+ ul.slick-dots .Startmyfreetrial-btn a {
+    max-width: 195px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 8px;
+    height: 58px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+ .img-content ul li .progress-bar,
+ .feature-column .progress-bar {
+    display: none;
+    max-width: 475px;
+    width: 100%;
+    height: 4px;
+    /*background: #007BFF;*/
+    background: #acd4fd;
+    border-radius: 4px;
+}
+
+ .img-content ul li .progress-bar.filled {
+    background: #007BFF;
+    -webkit-transition: background .5s ease-in-out .1s;
+    -o-transition: background .5s ease-in-out .1s;
+    transition: background .5s ease-in-out .1s;
+}
+
+ .feature-column .progress-bar {
+    max-width: 4px;
+    height: 100%;
+}
+
+/* Styling the border and box effect of the progress bar*/
+ .img-content ul li.slick-active .progress-bar,
+ .feature-column .slick-slide.slick-current.slick-active .progress-bar {
+    display: block;
+    position: relative;
+}
+
+ .img-content ul li.slick-active .progress-bar {
+    max-width: 4px;
+    height: auto;
+}
+
+/* Stylingthe background color of each animation and border radius */
+ .img-content ul li .progress-bar .percentage,
+ .feature-column .progress-bar .percentage {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #007BFF;
+    opacity: 1;
+    animation: progress 8000ms ease-in 1;
+    -webkit-animation: progress 8000ms ease-in 1;
+}
+
+ .img-content ul li .progress-bar .percentage.liveprogress,
+ .feature-column .progress-bar .percentage.liveprogress {
+    width: 4px;
+    height: 100%;
+    border-radius: 4px 0px 0px 4px;
+    left: 0;
+}
+
+@-webkit-keyframes progress {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes progress {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+ .tab_mobile-mode .tab-links .feature-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ .tab_mobile-mode .tab-links .feature-column .tab-link-container {
+    max-width: 475px;
+    width: 100%;
+    height: 158px;
+    margin: 0px;
+    padding: 25px 20px;
+    cursor: text;
+}
+
+ .tab_mobile-mode .tab-links {
+    margin-bottom: 119px;
+}
+
+li .AccordionMediaCarousel__mobile-only-media img {
+    display: none;
+}
