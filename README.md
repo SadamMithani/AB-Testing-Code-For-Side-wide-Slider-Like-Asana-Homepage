@@ -1,0 +1,1 @@
+"Please note that before using this code for a side-wide slider similar to the Asana homepage, you need to make changes to match your webpage's selector. The slider has been placed after a specific id, so you will need to replace it with your own selector. Additionally, you will need to replace your image with "INSERT YOUR IMAGE HERE".
